@@ -21,6 +21,6 @@ int main(){
     
     printf("The monster is level is %d.\nThe hero is level %d.", MonsterLvl, HeroLvl);
     printf("\nThe monster's base XP value is %.0lf.", xpBase);
-    printf("\nThe monster's adjusted XP is %.0lf.", xpAdvantage);
+    printf("\nThe monster's adjusted XP is %.0lf.\n", xpAdvantage);
 
 }
