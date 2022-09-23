@@ -15,12 +15,12 @@ int main(){
         errx(1, "Input error, please enter an integer. ");
     }
 
-    double xpBase = 100 + (2.5 * MonsterLvl);
-    double LvlCalc = MonsterLvl - HeroLvl;
-    double xpAdvantage = xpBase * pow(1.2, LvlCalc);
+    int xpBase = 100 + (2.5 * MonsterLvl);
+    int LvlCalc = MonsterLvl - HeroLvl;
+    int xpAdvantage = xpBase * pow(1.2, LvlCalc);
     
     printf("The monster is level is %d.\nThe hero is level %d.", MonsterLvl, HeroLvl);
-    printf("\nThe hero's base XP value is %.0lf.", xpBase);
-    printf("\nThe hero's adjusted XP is %.0lf.\n", xpAdvantage);
+    printf("\nThe hero's base XP value is %d.", xpBase);
+    printf("\nThe hero's adjusted XP is %d.\n", xpAdvantage);
 
 }
