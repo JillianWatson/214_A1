@@ -64,7 +64,7 @@ int main(){
     
     // prints the resulting stats for the game to the console. 
     printf("The monster is level is %d.\nThe hero is level %d.", MonsterLvl, HeroLvl);
-    printf("\nThe monster's base XP value is %d.", XpBase);
-    printf("\nThe monster's adjusted XP is %d.\n", XpAdjusted);
+    printf("\nThe hero's base XP value is %d.", XpBase);
+    printf("\nThe hero's adjusted XP is %d.\n", XpAdjusted);
 
 }
