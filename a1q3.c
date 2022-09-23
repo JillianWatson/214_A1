@@ -2,7 +2,7 @@
 #include <err.h>
 #include <math.h>
 
-// Function that takes two args to calculate the Xp amount for the hero when defeating a monster.
+// Function that takes two args to calculate the Xp for a monster.
 // int MonsterLvl: must be between 0 and 50 (inclusive). 
 // int MonsterType: must be between 1 and 3 (inclusive). 
 // return: the Xp amount for the monster
@@ -17,7 +17,7 @@ double CalcXpBase(int MonsterLvl, int MonsterType){
         return 100 + (2.5 * MonsterLvl);
     }
 }
-// Function that takes 3 args to calculate the adjusted Xp amount for the Hero when defeating a monster.
+// Function that takes 3 args to calculate the adjusted Xp amount when defeating a monster.
 // double XpBase: given by CalcXpBase function
 // int MonsterLvl: must be between 0 and 50 (inclusive). 
 // int MonsterType: must be between 1 and 3 (inclusive).
@@ -64,7 +64,7 @@ int main(){
     
     // prints the resulting stats for the game to the console. 
     printf("The monster is level is %d.\nThe hero is level %d.", MonsterLvl, HeroLvl);
-    printf("\nThe hero's base XP value is %d.", XpBase);
-    printf("\nThe hero's adjusted XP is %d.\n", XpAdjusted);
+    printf("\nThe monster's base XP value is %d.", XpBase);
+    printf("\nThe monster's adjusted XP is %d.\n", XpAdjusted);
 
 }

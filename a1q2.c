@@ -20,7 +20,7 @@ int main(){
     int xpAdvantage = xpBase * pow(1.2, LvlCalc);
     
     printf("The monster is level is %d.\nThe hero is level %d.", MonsterLvl, HeroLvl);
-    printf("\nThe hero's base XP value is %d.", xpBase);
-    printf("\nThe hero's adjusted XP is %d.\n", xpAdvantage);
+    printf("\nThe monster's base XP value is %d.", xpBase);
+    printf("\nThe monster's adjusted XP is %d.\n", xpAdvantage);
 
 }
